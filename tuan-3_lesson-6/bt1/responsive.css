@@ -1,0 +1,28 @@
+@media screen and (max-width: 599px ) {
+    .wrapper {
+        /* height: 100vh;
+        overflow: hidden;
+        display: grid; */
+        grid-template: 
+        "header" auto
+        "main" 1fr
+        "footer" 50px/
+        1fr;
+    }
+    .nav-left {
+        display: none;
+    }
+    
+    header .menu-mobile {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        border-right: 1px solid #c9d3dd;
+    }
+    header .menu-mobile img {
+        width: 25px;
+    }
+    /* header .top-bar {
+        flex-grow: 1;
+    } */
+}
